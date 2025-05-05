@@ -1,7 +1,11 @@
 # @iocium/ioc-diff
 
+[![npm](https://img.shields.io/npm/v/@iocium/ioc-diff)](https://www.npmjs.com/package/@iocium/ioc-diff)
 [![build](https://github.com/iocium/ioc-diff/actions/workflows/test.yml/badge.svg)](https://github.com/iocium/ioc-diff/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/iocium/ioc-diff/branch/main/graph/badge.svg)](https://codecov.io/gh/iocium/favicon-fetcher)
+[![codecov](https://codecov.io/gh/iocium/ioc-diff/branch/main/graph/badge.svg)](https://codecov.io/gh/iocium/ioc-diff)
+[![npm downloads](https://img.shields.io/npm/dm/@iocium/ioc-diff)](https://www.npmjs.com/package/@iocium/ioc-diff)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@iocium/ioc-diff)](https://bundlephobia.com/package/@iocium/ioc-diff)
+[![types](https://img.shields.io/npm/types/@iocium/ioc-diff)](https://www.npmjs.com/package/@iocium/ioc-diff)
 [![license](https://img.shields.io/npm/l/@iocium/ioc-diff)](https://github.com/iocium/ioc-diff/blob/main/LICENSE)
 
 A full-featured, ESM-compatible IOC diffing and normalization library + CLI for InfoSec tooling.
