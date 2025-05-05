@@ -1,6 +1,6 @@
 {
   "name": "@iocium/ioc-diff",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A full-featured, ESM-compatible IOC diffing and normalization library + CLI for InfoSec tooling.",
   "type": "module",
   "main": "dist/index.js",
