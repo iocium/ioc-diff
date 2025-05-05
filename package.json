@@ -8,6 +8,24 @@
   "bin": {
     "ioc-diff": "dist/bin/ioc-diff.js"
   },
+  "keywords": [
+    "ioc",
+    "infosec",
+    "threat-intel",
+    "threat-intelligence",
+    "security",
+    "indicators-of-compromise",
+    "yara",
+    "sigma",
+    "misp",
+    "csv",
+    "fuzzy",
+    "diff",
+    "deduplication",
+    "cli",
+    "typescript",
+    "esmodule"
+  ],
   "scripts": {
     "build": "tsup",
     "test": "jest",
