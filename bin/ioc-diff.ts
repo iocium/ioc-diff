@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
-import yaml from 'js-yaml';
+import { load } from 'js-yaml';
 import { parse as parseCSV } from 'csv-parse/sync';
 import { diffIOCs } from '../index';
 import { parsePlainIOCs } from '../src/utils';
@@ -96,7 +96,7 @@ function parseIOCFile(file: string, overrideFormat?: string): IOC[] {
       return iocs;
     }
     case 'sigma': {
-      const doc = yaml.load(raw);
+      const doc = load(raw);
       const detection = (doc as any)?.detection ?? {};
       const iocs: IOC[] = [];
       for (const val of Object.values(detection)) {

@@ -54,10 +54,10 @@ detection:
   condition: selection
 `;
 
-import yaml from 'js-yaml';
+import { load } from 'js-yaml';
 
 function parseSigma(raw: string): IOC[] {
-  const doc = yaml.load(raw);
+  const doc = load(raw);
   const detection = (doc as any)?.detection ?? {};
   const iocs: IOC[] = [];
   for (const val of Object.values(detection)) {
