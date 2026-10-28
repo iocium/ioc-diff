@@ -34,15 +34,15 @@
     "dev": "tsup --watch"
   },
   "dependencies": {
-    "csv-parse": "^5.3.6",
-    "js-yaml": "^4.1.0",
+    "csv-parse": "^7.0.3",
+    "js-yaml": "^5.5.0",
     "string-similarity": "^4.0.4",
     "validator": "^13.9.0",
-    "yargs": "^17.7.2"
+    "yargs": "^18.2.0"
   },
   "devDependencies": {
     "@types/bun": "^1.2.0",
-    "tsup": "^8.4.0",
+    "tsup": "^9.0.0",
     "typedoc": "^0.28.4",
     "typescript": "^5.0.0"
   },
