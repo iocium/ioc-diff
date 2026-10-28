@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'bun:test';
 import { diffIOCs } from '../src/diffIOCs';
 import type { IOC } from '../src/types';
 

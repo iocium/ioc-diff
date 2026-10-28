@@ -28,8 +28,8 @@
   ],
   "scripts": {
     "build": "tsup",
-    "test": "jest",
-    "test:coverage": "jest --coverage",
+    "test": "bun test",
+    "test:coverage": "bun test --coverage --coverage-reporter=lcov",
     "docs": "typedoc",
     "dev": "tsup --watch"
   },
@@ -41,12 +41,13 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
-    "@types/jest": "^29.0.0",
-    "jest": "^29.0.0",
-    "ts-jest": "^29.0.0",
-    "ts-node": "^10.9.1",
+    "@types/bun": "^1.2.0",
     "tsup": "^8.4.0",
     "typedoc": "^0.28.4",
     "typescript": "^5.0.0"
-  }
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "packageManager": "bun@1.2.0"
 }

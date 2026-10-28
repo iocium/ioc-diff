@@ -1,4 +1,5 @@
-const { runCli } = require('./helpers/run-cli.js');
+import { afterAll, describe, expect, it } from 'bun:test';
+import { runCli } from './helpers/run-cli';
 import { writeTempFile, cleanupTempFiles } from './helpers/temp-file';
 
 describe('CLI basic usage', () => {

@@ -32,7 +32,7 @@ A full-featured, ESM-compatible IOC diffing and normalization library + CLI for 
 ## 📦 Installation
 
 ```bash
-npm install @iocium/ioc-diff
+bun add @iocium/ioc-diff
 ````
 
 ---
@@ -107,8 +107,8 @@ ioc-diff --old old.json --new new.csv --old-format json --new-format csv
 ## 🧪 Testing
 
 ```bash
-npm run build
-npm test -- --coverage
+bun run build
+bun test --coverage
 ```
 
 ---

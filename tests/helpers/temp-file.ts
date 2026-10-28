@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 
 const tempFiles: string[] = [];
 
@@ -7,7 +7,7 @@ const tempFiles: string[] = [];
  * Write a temporary file and track it for later cleanup.
  */
 export function writeTempFile(name: string, contents: string): string {
-  const filePath = path.join(__dirname, '..', name);
+  const filePath = path.join(import.meta.dir, '..', name);
   fs.writeFileSync(filePath, contents);
   tempFiles.push(filePath);
   return filePath;

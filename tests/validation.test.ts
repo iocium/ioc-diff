@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'bun:test';
 import { parsePlainIOCs } from '../src/utils';
 import type { IOC } from '../src/types';
 
